@@ -9,7 +9,7 @@ enum Message {
     // TODO: define the different variants used below
     Quit,
     Move { x: i32, y: i32 },
-    Write(String),
+    Echo(String),
     ChangeColor(i32, i32, i32),
 }
 
